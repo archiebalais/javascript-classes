@@ -19,7 +19,7 @@ class Artist {
 
     addSongs(song) {
         this.songs.push(song);
-        console.log(`This is the album, ${song} from ${this.name}`)
+        console.log(`This is the song, ${song} from ${this.name}`)
     }
 
     addImage(imageLink) {
@@ -42,3 +42,8 @@ bloodOrange.addAlbum('Cupid Deluxe');
 sahBabii.addSongs('Purple Umbrella');
 bloodOrange.addSongs('Hope');
 
+sahBabii.addImage('https://assets.audiomack.com/sahbabii/8de0bd55f23b5a7cebdfa6422306d25947cac73869b44885e544b44ae12f4280.jpeg');
+bloodOrange.addImage('https://www.nme.com/wp-content/uploads/2016/09/2014DevHynes_Getty484688951270514-696x464.jpg');
+
+sahBabii.addIG('sahbabii');
+bloodOrange.addIG('devhynes');
