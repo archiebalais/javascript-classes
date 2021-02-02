@@ -64,12 +64,4 @@ console.log(princeLeo.artists);
 
 // andrewBith.fly();
 
-const momo = new Person('Mocha Brown', true);
-console.log(momo.name);
-console.log(momo.softwareEngineer);
-momo.walk();
-momo.eat('Trader Joes Gluten Free Choccy');
-momo.shy = (senpai)=>{
-    console.log(`I sure hope ${senpai} notices me`)
-}
-momo.shy('phiphi');
+
